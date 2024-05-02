@@ -22,16 +22,16 @@ function Counter() {
 
     return (
         <>
-            <div className="counter-parent">
-                <div className="main-div">
-                    <h3>Counter</h3>
-                    <button onClick={handleClick}>{currentState}</button>
-                    <button onClick={showTest}>Toggle</button>
-                    {toggle && <Test />} {/* for conditional render */}
+            <div className="main">
+                <div className="counter-parent">
+                    <div className="main-div">
+                        <h3>Counter</h3>
+                        <button onClick={handleClick}>{currentState}</button>
+                        <button onClick={showTest}>Toggle</button>
+                        {toggle && <Test />} {/* for conditional render */}
+                    </div>
                 </div>
             </div>
-            
-            
         </>
     )
 }
