@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Button from '@mui/material/Button';
 
 function Home () {
     const navigate = useNavigate();
@@ -12,6 +13,7 @@ function Home () {
         <div className="main">
             <h1>Home</h1>
             <button onClick={handleClick}>Click me - About</button>
+            <Button variant="contained">Hello world</Button>
         </div>
     )
 }
