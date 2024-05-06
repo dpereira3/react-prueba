@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import '../counter.css';
 import Test from './Test';
+import Counters from './Counters';
 
 function Counter() {
     let count = 0;
@@ -32,6 +33,7 @@ function Counter() {
                     </div>
                 </div>
             </div>
+            <Counters />
         </>
     )
 }

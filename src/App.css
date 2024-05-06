@@ -64,3 +64,16 @@
 .button1 {
   width: 160px;
 }
+
+.numero {
+  font-size: 3em;
+  color: red;
+}
+
+.warning {
+  background-color: yellow;
+}
+
+.primary {
+  background-color: teal;
+}
